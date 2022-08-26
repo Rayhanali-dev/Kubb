@@ -1,0 +1,49 @@
+#about {
+    @include pgap(0px, 0px, 54px, 0);
+    background-color: $sectionbackground;
+    .about-header {
+        h3 {
+            @include font(18px, 'Roboto Condensed', 700, $sectionheadingcolor);
+            text-transform: uppercase;
+            @include mgap(0, 0, 30px, 0);
+            display: inline-block;
+            position: relative;
+            &::after {
+                content: '';
+                position: absolute;
+                top: 50%;
+                right: -115px;
+                width: 100px;
+                height: 1px;
+                background-color: #d9d9d9;
+                transform: translateY(-50%);
+            }
+        }
+    }
+    .about-left-content {
+        p {
+            &:first-child {
+                @include font(18px, 'Roboto Slab', 300, $sectionparacolor);
+                @include pgap(0px, 27px, 25px, 0);
+                line-height: 28px;
+            }
+            &:last-child {
+                @include font(14px, 'Roboto', 400, $sectionparacolor);
+                line-height: 24px;
+                @include pgap(0px, 44px, 0px, 0);
+            }
+        }
+    }
+    .about-right-content {
+        h4 {
+            @include font(17px, 'Roboto Slab', 700, $sectionheadingcolor);
+            @include mgap(0px, 0px, 15px, 0);
+        }
+        p {
+            @include font(14px, 'Roboto', 400, $sectionheadingcolor);
+            @include mgap(0px, 0px, 25px, 0);
+            line-height: 22px;
+            @include pgap(0, 78px, 0, 0);
+        }
+    }
+}

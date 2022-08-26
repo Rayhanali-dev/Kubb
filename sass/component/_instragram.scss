@@ -1,0 +1,51 @@
+#instragram {
+    background-color: $instrabackgroundcolor;
+    .instra-heading {
+        @include pgap(30px, 0px, 30px, 0);
+        h2 {
+            @include font(18px, 'Roboto Condensed', 700, $instraheadingcolor);
+            text-transform: uppercase;
+            position: relative;
+            display: inline-block;
+            &::after {
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: -115px;
+                width: 100px;
+                height: 1px;
+                background-color: #535353;
+                transform: translateY(-50%);
+            }
+            &::before {
+                content: '';
+                position: absolute;
+                top: 50%;
+                right: -115px;
+                width: 100px;
+                height: 1px;
+                background-color: #535353;
+                transform: translateY(-50%);
+            }
+        }
+    }
+    .instra-footer {
+        @include pgap(46px, 0, 40px, 0);
+        .inner-instra-footer {
+            border: 1px solid #535353;
+            display: inline-block;
+            a {
+                @include pgap(15px, 17px, 15px, 17px);
+                @include font(14px, 'Roboto', 400, $instratextcolor);
+                text-decoration: none;
+                text-transform: uppercase;
+                &:last-child{ 
+                    padding-left: 0;
+                }
+                &:first-child {
+                    padding-right: 0;
+                }
+            }
+        }
+    }
+}

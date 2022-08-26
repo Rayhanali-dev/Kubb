@@ -1,0 +1,692 @@
+
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+     /* banner part start */
+
+     #banner {
+        padding-top: 300px;
+        padding-bottom: 240px;
+    }
+
+    /* banner part end */
+
+     /* journal part start */
+
+     #journal {
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+
+    #journal .journal-item .journal-item-content a:last-child {
+        margin-left: 85%;
+        transform: translateY(-20px);
+    }
+
+    /* journal part end */
+
+    /* about part start */
+
+    #about .about-left-content p:first-child {
+        font-size: 15px;
+        padding-right: 0;
+    }
+
+    #about .about-left-content p:last-child {
+        font-size: 13px;
+        padding-right: 0;
+    }
+
+    .about-right-content {
+        margin-left: 8px;
+    }
+    /* about part end */
+}
+
+/* large device start */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* banner part start */
+
+    #banner {
+        padding-top: 250px;
+        padding-bottom: 220px;
+    }
+
+    #banner .ban-text h1 {
+        font-size: 50px;
+    }
+
+    #banner .ban-text h2 {
+        font-size: 40px;
+       
+    }
+
+    /* banner part end */
+
+    /* service part start */
+
+    #service {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    #service .service-header h2 {
+        font-size: 25px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+
+    #service .service-header p {
+        line-height: 20px;
+        margin-bottom: 45px;
+    }
+
+    /* service part end */
+
+    /* journal part start */
+
+    #journal {
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+
+    #journal .journal-item .journal-item-content a:last-child {
+        margin-left: 85%;
+        transform: translateY(-20px);
+    }
+
+    /* journal part end */
+
+        /* about part start */
+
+        #about {
+            padding-bottom: 30px;
+        }
+    
+        #about .about-left-content p:first-child {
+            padding-right: 89px;
+            padding-top: 40px;
+        }
+    
+        #about .about-left-content p:last-child {
+            padding-right: 40px;
+            margin-bottom: 25px;
+        }
+    
+        .about-right-img {
+            margin-bottom: 15px;
+        }
+    
+        .about-right-content {
+            text-align: left;
+        }
+    
+        #about .about-right-content p {
+            padding-right: 0;
+        }
+    
+        .about-header {
+            text-align: center;
+        }
+    
+        #about .about-header h3::after {
+            display: none;
+        }
+    
+        .about-item {
+            width: 48%;
+        }
+    
+        .about-item-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+    
+        }
+        /* about part end */
+
+        /* footer part start */
+
+        #footer .footer-content p:first-child {
+            padding-right: 0;
+        }
+
+        #footer .footer-content-2 p {
+            padding-right: 0;
+        }
+
+        #footer .footer-content-2 p:last-child {
+            padding-right: 0;
+        }
+
+        #footer .footer-content-4 p:first-child {
+            padding-right: 0;
+        }
+
+        #footer .footer-content-4 p {
+            padding-right: 0;
+        }
+        /* footer part end */
+
+}
+
+/* large device end */
+
+/* medium device start here */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* navbar part start */
+
+    .navbar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .navbar #menu-wrapper #hamburger-menu {
+        margin-top: 15px;
+    }
+
+    .navbar .navbar-nav {
+        background-color: #5d5d5d;
+    }
+
+    /* navbar part end */
+
+    /* banner part start */
+
+    #banner {
+        padding-top: 180px;
+        padding-bottom: 165px;
+    }
+
+    #banner .ban-text h1 {
+        font-size: 45px;
+    }
+
+    #banner .ban-text h2 {
+        font-size: 35px;
+       
+    }
+
+    /* banner part end */
+
+    /* service part start */
+
+    #service {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    #service .service-header h2 {
+        font-size: 25px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+
+    #service .service-header p {
+        line-height: 20px;
+        margin-bottom: 45px;
+    }
+
+    /* service part end */
+
+    /* journal part start */
+
+    #journal {
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+
+    #journal .journal-item .journal-item-content a:last-child {
+        margin-left: 87%;
+        transform: translateY(-20px);
+    }
+
+    /* journal part end */
+
+    /* about part start */
+
+    #about {
+        padding-bottom: 30px;
+    }
+
+    #about .about-left-content p:first-child {
+        padding-right: 0;
+        padding-top: 30px;
+    }
+
+    #about .about-left-content p:last-child {
+        padding-right: 0;
+        margin-bottom: 25px;
+    }
+
+    .about-right-img {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .about-right-content {
+        text-align: center;
+    }
+
+    #about .about-right-content p {
+        padding-right: 0;
+    }
+
+    .about-header {
+        text-align: center;
+    }
+
+    #about .about-header h3::after {
+        display: none;
+    }
+
+    .about-item {
+        width: 48%;
+    }
+
+    .about-item-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+    /* about part end */
+
+    /* footer part start */
+
+    #footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .footer-item {
+        margin-bottom: 30px;
+    }
+
+    #footer .footer-content p:first-child {
+        padding-right: 0;
+        padding-bottom: 22px;
+    }
+
+    #footer .footer-content-2 p {
+        padding-right: 0;
+    }
+
+    #footer .footer-content-2 p:last-child {
+        padding-right: 0;
+    }
+
+    #footer .footer-content-4 p:first-child {
+        padding-right: 0;
+    }
+
+    #footer .footer-content-4 p {
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+
+    /* footer part end */
+
+}
+
+/* small device start */
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* navbar part start */
+
+    .navbar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .navbar #menu-wrapper #hamburger-menu {
+        margin-top: 15px;
+    }
+
+    .navbar .navbar-nav {
+        background-color: #5d5d5d;
+    }
+
+    /* navbar part end */
+
+    /* banner part start */
+
+    #banner {
+        padding-top: 160px;
+        padding-bottom: 145px;
+    }
+
+    #banner .ban-text h1 {
+        font-size: 40px;
+    }
+
+    #banner .ban-text h2 {
+        font-size: 35px;
+       
+    }
+
+    /* banner part end */
+
+    /* service part start */
+
+    #service {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
+    #service .service-header h2 {
+        font-size: 25px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+
+    #service .service-header p {
+        line-height: 20px;
+        margin-bottom: 45px;
+    }
+
+    /* service part end */
+
+    /* journal part start */
+
+    #journal {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #journal .journal-item .journal-item-content a:last-child {
+        margin-left: 85%;
+        transform: translateY(-22px);
+    }
+
+    #journal .journal-item .journal-item-content p {
+        padding-right: 0;
+    }
+
+    /* journal part end */
+
+    /* about part start */
+
+    #about {
+        padding-bottom: 30px;
+    }
+
+    #about .about-left-content p:first-child {
+        padding-right: 0;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    #about .about-left-content p:last-child {
+        padding-right: 0;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .about-right-img {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .about-right-content {
+        text-align: center;
+    }
+
+    #about .about-right-content p {
+        padding-right: 0;
+    }
+
+    .about-header {
+        text-align: center;
+    }
+
+    #about .about-header h3::after {
+        display: none;
+    }
+
+    .about-item {
+        width: 48%;
+    }
+
+    .about-item-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+    /* about part end */
+
+    /* footer part start */
+
+    #footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .footer-item {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    #footer .footer-content p:first-child {
+        padding-right: 0;
+        padding-bottom: 22px;
+    }
+
+    #footer .footer-content-2 p {
+        padding-right: 0;
+    }
+
+    #footer .footer-content-2 p:last-child {
+        padding-right: 0;
+    }
+
+    #footer .footer-content-4 p:first-child {
+        padding-right: 0;
+    }
+
+    #footer .footer-content-4 p {
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+
+    /* footer part end */
+
+
+}
+
+/* small device start end */
+
+
+
+/* xs device start */
+
+
+@media (max-width: 575.99px) {
+
+    /* navbar part start */
+
+    .navbar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .navbar #menu-wrapper #hamburger-menu {
+        margin-top: 15px;
+    }
+
+    .navbar .navbar-nav {
+        background-color: #5d5d5d;
+    }
+
+    /* navbar part end */
+   
+    /* banner part start */
+
+    #banner {
+        padding-top: 140px;
+        padding-bottom: 125px;
+    }
+
+    #banner .ban-text h1 {
+        font-size: 35px;
+    }
+
+    #banner .ban-text h2 {
+        font-size: 30px;
+       
+    }
+
+    /* banner part end */
+
+    /* service part start */
+
+    #service {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
+    #service .service-header h2 {
+        font-size: 22px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+
+    #service .service-header p {
+        line-height: 24px;
+        margin-bottom: 45px;
+    }
+    /* service part end */
+
+    /* instra part start */
+
+    #instragram .instra-heading h2::before {
+        display: none;
+    }
+    #instragram .instra-heading h2::after {
+        display: none;
+    }
+
+    /* instra part end */
+
+    /* journal part start */
+
+    #journal {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #journal .journal-header h3::before {
+        display: none;
+    }
+    #journal .journal-header h3::after {
+        display: none;
+    }
+
+    #journal .journal-item .journal-item-content a:last-child {
+        margin-left: 85%;
+        transform: translateY(-22px);
+    }
+
+    #journal .journal-item .journal-item-content p {
+        padding-right: 0;
+    }
+
+    /* journal part end */
+
+    /* about part start */
+
+    #about {
+        padding-bottom: 30px;
+    }
+
+    #about .about-left-content p:first-child {
+        padding-right: 0;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    #about .about-left-content p:last-child {
+        padding-right: 0;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .about-right-img {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .about-right-content {
+        text-align: center;
+    }
+
+    #about .about-right-content p {
+        padding-right: 0;
+    }
+
+    .about-header {
+        text-align: center;
+    }
+
+    #about .about-header h3::after {
+        display: none;
+    }
+    /* about part end */
+
+    /* footer part start */
+
+    #footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .footer-item {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    #footer .footer-content p:first-child {
+        padding-right: 0;
+        padding-bottom: 22px;
+    }
+
+    #footer .footer-content-2 p {
+        padding-right: 0;
+    }
+
+    #footer .footer-content-2 p:last-child {
+        padding-right: 0;
+    }
+
+    #footer .footer-content-4 p:first-child {
+        padding-right: 0;
+    }
+
+    #footer .footer-content-4 p {
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+
+    /* footer part end */
+
+    /* copyright part start */
+
+    #copyright {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    #copyright .copyright-content p {
+        line-height: 24px;
+        text-align: center;
+    }
+
+    /* copyright part end */
+}
+
+/* xs device end */

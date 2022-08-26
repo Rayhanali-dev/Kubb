@@ -1,0 +1,53 @@
+#footer {
+    background-color: $footerbackgroundcolor;
+    @include pgap(68px, 0px, 68px, 0);
+    .footer-header {
+        h3 {
+            @include font(16px, 'Roboto Condensed', 700, $footerheadercolor);
+            text-transform: uppercase;
+            @include mgap(0, 0, 25px, 0);
+        }
+    }
+    .footer-content {
+        p {
+            &:first-child {
+                @include font(14px, 'Roboto', 400, $footertextcolor);
+                line-height: 24px;
+                @include pgap(0, 22px, 35px, 0);
+            }
+            &:nth-of-type(3) {
+                @include mgap(10px, 0, 10px, 0);
+            }
+        }
+        a {
+            @include font(14px, 'Roboto', 400, $footertextcolor);
+            text-decoration: none;
+            i {
+                margin-right: 10px;
+            }
+            .first-icon {
+                margin-right: 14px;
+            }
+        }
+    }
+    .footer-content-2 {
+        p {
+            @include font(14px, 'Roboto', 400, $footertextcolor);
+            line-height: 24px;
+            @include pgap(0, 68px, 30px, 0);
+            &:last-child {
+                @include pgap(0, 69px, 0px, 0);
+            }
+        }
+    }
+    .footer-content-4 {
+        p {
+            @include font(14px, 'Roboto', 400, $footertextcolor);
+            line-height: 24px;
+            @include pgap(0, 60px, 30px, 0);
+            &:first-child {
+                @include pgap(0, 75px, 30px, 0);
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+#service {
+    background-color: $sectionbackground;
+    @include pgap(60px, 0px, 84px, 0);
+    .service-header {
+        h2 {
+            @include font(30px, 'Roboto Slab', 400, $sectionheadingcolor);
+            @include mgap(0px, 0, 25px, 0);
+        }
+        p {
+            @include font(14px, 'Roboto', 400, $sectionparacolor);
+            @include mgap(0px, 0, 65px, 0);
+        }
+    }
+    .service-item-header {
+        h3 {
+            @include font(18px, 'Roboto Condensed', 700, $sectionheadingcolor);
+            @include mgap(0px, 0, 30px, 0);
+            text-transform: uppercase;
+        }
+    }
+    .service-item {
+        background-color: #fff;
+        @include pgap(15px, 15px, 0, 15px);
+        border: 1px solid #e3e3e3;
+        @include mgap(0, 12px, 0, 12px);
+        .service-content {
+            h4 {
+                @include font(17px, 'Roboto Slab', 700, $sectionheadingcolor);
+                @include mgap(25px, 0px, 15px, 0);
+            }
+            p {
+                @include font(14px, 'Roboto', 400, $sectionparacolor);
+                line-height: 22px;
+                @include pgap(0, 23px, 0, 23px);
+                @include mgap(0px, 0px, 16px, 0);
+            }
+        }
+    }
+}

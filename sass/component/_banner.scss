@@ -1,0 +1,21 @@
+/* banner part start */
+#banner {
+    @include pgap(333px, 0, 250px, 0);
+    background: url(../images/banner.jpg) no-repeat center/cover;
+    .ban-text {
+        h1 {
+            @include font(50px, 'Roboto Condensed', 700, #fff);
+            @include mgap(0px, 0px, 12px, 0);
+            text-transform: uppercase;
+        }
+        h2 {
+            @include font(40px, 'Roboto Slab', 300, #fff);
+            @include mgap(0px, 0px, 12px, 0);
+            text-transform: uppercase;
+        }
+        p {
+            @include font(14px, 'Roboto Slab', 300, #fff);
+        }
+    }
+}
+/* banner part end */

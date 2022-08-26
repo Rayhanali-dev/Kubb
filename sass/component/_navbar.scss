@@ -1,0 +1,100 @@
+/* navbar part start */
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 999;
+    @include pgap(21px, 0, 21px, 0);
+    .navbar-toggler {
+        padding: 0;
+        border: none;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .nav-item {
+        @include pgap(0, 17px, 0, 17px);
+        .nav-link {
+            padding-left: 0;
+            padding-right: 0;
+            @include font(14px, 'Roboto Condensed', 700, $menucolor);
+            text-transform: uppercase;
+            transition: all linear .3s;
+            &:hover {
+                color: #28b8d8;
+            }
+        }
+    }
+    #menu-wrapper {
+        #hamburger-menu {
+            position: relative;
+            width: 25px;
+            height: 25px;
+            margin: 5px;
+            span {
+                opacity: 1;
+                left: 0;
+                display: block;
+                width: 100%;
+                height: 2px;
+                border-radius: 10px;
+                color: black;
+                background-color: white;
+                position: absolute;
+                transform: rotate(0deg);
+                transition: .4s ease-in-out;
+                &:nth-child(1) {
+                    top: 0;
+                }
+                &:nth-child(2) {
+                    top: 9px;
+                }
+                &:nth-child(3) {
+                    top: 18px;
+                }
+            }
+            &.open {
+                span {
+                    &:nth-child(1) {
+                        transform: translateY(9px) rotate(135deg);
+                    }
+                    &:nth-child(2) {
+                        opacity: 0;
+                        transform: translateX(-60px);
+                    }
+                    &:nth-child(3) {
+                        transform: translateY(-9px) rotate(-135deg);
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+
+.sticky-menu {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #58055b;
+    z-index: 88;
+    animation: sticky 1s linear;
+    transition: all linear .3s;
+}
+
+@keyframes sticky{
+    from {
+        top: -80px;
+    }
+    to {
+        top: 0;
+    }
+}
+/* navbar part start */
